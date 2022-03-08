@@ -8,8 +8,8 @@
 		.carousel-control{
 			display: block;
 			transition: $transition;
-			-webkit-animation-duration: 1s;
-			  animation-duration: 1s;
+			-webkit-animation-duration: .5s;
+			  animation-duration: .5s;
 			  -webkit-animation-fill-mode: both;
 			  animation-fill-mode: both;
 			  -webkit-animation-name: fadeIn;
@@ -30,7 +30,7 @@
 	}
 	.carousel-item .carousel-caption {
 	    opacity: 0;
-	    transition: opacity 100ms ease 0s;
+	    transition: opacity 10ms ease 0s;
 	    z-index: 0;
 	    .heading{
 			font-size: 48px;
@@ -46,7 +46,7 @@
 	}
 	.carousel-item.active .carousel-caption {
 	    opacity: 1;
-	    transition: opacity 100ms ease 0s;
+	    transition: opacity 10ms ease 0s;
 	    z-index: 1;
 	}
 	.carousel-caption{
@@ -102,8 +102,8 @@
     border-radius: 2px;
     background: transparent;
     color: #fff;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
     @include icon-shadow;
 }
 
